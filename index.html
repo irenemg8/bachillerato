@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes de Bachillerato</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="mates.html" class="nav-link">
+                    <i class="fas fa-calculator"></i> Matemáticas
+                </a>
+                <a href="lengua.html" class="nav-link">
+                    <i class="fas fa-book"></i> Lengua
+                </a>
+                <a href="filosofia.html" class="nav-link">
+                    <i class="fas fa-brain"></i> Filosofía
+                </a>
+                <a href="fisica-quimica.html" class="nav-link">
+                    <i class="fas fa-atom"></i> F/Q
+                </a>
+                <a href="dibujo-tecnico.html" class="nav-link">
+                    <i class="fas fa-drafting-compass"></i> Dibujo Técnico
+                </a>
+                <a href="ingles.html" class="nav-link">
+                    <i class="fas fa-globe"></i> Inglés
+                </a>
+                <a href="educacion-fisica.html" class="nav-link">
+                    <i class="fas fa-running"></i> Ed. Física
+                </a>
+                <a href="tecnologia.html" class="nav-link">
+                    <i class="fas fa-cog"></i> Tecnología
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+       
+
+        <div class="subjects-grid">
+            <div class="subject-card" onclick="window.location.href='mates.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3>Matemáticas</h3>
+                <p>Álgebra, Cálculo, Geometría y más</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='lengua.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Lengua</h3>
+                <p>Literatura, Gramática y Ortografía</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='filosofia.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Filosofía</h3>
+                <p>Pensamiento crítico y reflexión</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='fisica-quimica.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <h3>Física y Química</h3>
+                <p>Leyes físicas y reacciones químicas</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='dibujo-tecnico.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-drafting-compass"></i>
+                </div>
+                <h3>Dibujo Técnico</h3>
+                <p>Geometría descriptiva y diseño</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='ingles.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Inglés</h3>
+                <p>Grammar, Vocabulary y Speaking</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='educacion-fisica.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h3>Educación Física</h3>
+                <p>Deportes, salud y bienestar</p>
+            </div>
+
+            <div class="subject-card" onclick="window.location.href='tecnologia.html'">
+                <div class="subject-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <h3>Tecnología e Ingeniería</h3>
+                <p>Innovación y desarrollo tecnológico</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
